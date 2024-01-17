@@ -162,6 +162,8 @@ button {
 
 .heading-des {
   max-width: 580px;
+  font-size: 20px;
+  color: rgb(217, 215, 215);
   margin: 0 auto;
 }
 
@@ -615,6 +617,7 @@ ul.check-list {
 ul.check-list li {
   padding-bottom: 12px;
   display: inline-block;
+  font-size: 15px;
   width: 100%;
 }
 
