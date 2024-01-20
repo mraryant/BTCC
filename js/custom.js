@@ -408,3 +408,25 @@ if ($("#map").length > 0) {
 }
 
 /* -------- Google Map End --------*/
+
+
+
+function handleCopy() {
+    var contractText = document.getElementById("contractText");
+    var textArea = document.createElement("textarea");
+    textArea.value = contractText.innerText;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+
+    var popup = document.getElementById("popup");
+    popup.style.display = "block";
+    setTimeout(function () {
+        popup.style.display = "none";
+    }, 2000);
+}
+
+function openBscScan() {
+    window.open('https://bscscan.com/address/0x7f376fad327f428052ccad5d810bc04d2d2cba0d', '_blank');
+}

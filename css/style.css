@@ -551,7 +551,7 @@ header.fixed {
 _______________________________________________________*/
 /*----- Home Banner -----*/
 .home-banner {
-  padding: 220px 0px 140px 0px;
+  padding: 150px 0px 140px 0px;
   overflow: hidden;
   background: url(../images/banner-bg.svg) no-repeat center / cover;
   background-attachment: fixed;
@@ -2486,3 +2486,39 @@ footer.bg-pattern {
 }
 
 /*----- Footer Section End -----*/
+
+
+
+#contract {
+  z-index: 2;
+  height: 20vh;
+  width: 100vw;
+  margin-top: 3vmax;
+  margin-bottom: 6vmax;
+  display: flex;
+  gap:20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contract>h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+#contract>h3 {
+  font-size: 3vmax;
+  font-weight: 500;
+}
+
+#contract-button {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width:450px) {
+  #contract-button {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+  }
+}
