@@ -195,6 +195,9 @@ ul.check-list li span {
 .token-graphic-detail ul li.color-code-5:before {
 	background: #61f89f;
 }
+.token-graphic-detail ul li.color-code-6:before {
+	background: #f8c0cc;
+}
 
 .donut {
 	color: #3d1f94;
