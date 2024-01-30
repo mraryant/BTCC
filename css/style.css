@@ -2515,6 +2515,41 @@ footer.bg-pattern {
   gap: 20px;
 }
 
+#token-util{
+  display: flex;
+  margin-top: 50px;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: fit-content;
+  
+}
+.t-u-c{
+  background-color: rgb(226, 215, 242);
+  border-radius: 32px;
+  width: fit-content;
+border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.t-u-c>span:nth-child(2){
+  width: 150px;
+  background-color:blueviolet;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 22px;
+}
+.t-u-c>span:nth-child(1) {
+  width: 150px;
+  color: black;
+  font-size: 20px;
+   
+}
 @media (max-width:450px) {
   #contract-button {
     display: flex;

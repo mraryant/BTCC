@@ -725,7 +725,9 @@
 
 	.token-sale-2 .token-graphic-detail {
 		padding-left: 0;
+		
 	}
+	 
 
 	.listtopie-svg {
 		width: 351px;
@@ -736,6 +738,12 @@
 	.token-graph-right {
 		height: 351px;
 	}
+	/* .tc-ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	} */
 
 	.listtopie-initialized {
 		display: flex;
