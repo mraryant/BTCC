@@ -2506,7 +2506,10 @@ footer.bg-pattern {
   font-weight: 500;
 }
 #contract>h3 {
-  font-size: 2.5vmax;
+ 
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 2vmax;
   font-weight: 500;
 }
 
@@ -2521,7 +2524,7 @@ footer.bg-pattern {
   /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   width: fit-content;
   
 }
