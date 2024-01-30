@@ -428,5 +428,5 @@ function handleCopy() {
 }
 
 function openBscScan() {
-    window.open('https://bscscan.com/address/0x7f376fad327f428052ccad5d810bc04d2d2cba0d', '_blank');
+    window.open('https://bscscan.com/address/0xDE549AA6B85085710248eff25A52d3ac79A85bc8', '_blank');
 }
